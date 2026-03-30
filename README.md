@@ -2,7 +2,7 @@
 
 # Thermal Object Detection with Custom Crosshairs (YOLOv8)
 
-This project uses a custom-trained YOLOv8 model to detect specific targets in thermal video footage. Instead of drawing standard bounding boxes, the script calculates the center of each detected object and draws a military-style crosshair over the targets.
+This project uses a custom-trained YOLOv8 model to detect specific targets in thermal video footage. The script calculates the center of each detected object and draws a custom crosshair over the targets.
 
 ## Features
 * **Thermal Image Tracking:** Utilizes a custom YOLOv8 model (`best.pt`) specifically trained on thermal imagery.
